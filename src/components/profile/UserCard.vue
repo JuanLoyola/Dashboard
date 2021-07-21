@@ -38,12 +38,38 @@ export default {
 
 <style lang="scss" scoped>
 .UserCard {
-  width:  750px;
+  width:  550px;
   height: 350px;
   border-radius: 9px;
   .image:hover {
     filter:contrast(0.7);
     border: dashed 1px rgb(165, 163, 163);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .UserCard {
+    width: 90%;
+    margin: -40px 10px 0 10px;
+    font-size: 0.9rem;
+
+    .row {
+      flex-direction: column;
+        .imgBox {
+          width: 10em;
+          height: 10em;
+          margin-bottom: 10px;
+  
+          .image {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      .infoBox {
+        width: 100%;
+        align-items: center;
+      }
+    }
   }
 }
 </style>

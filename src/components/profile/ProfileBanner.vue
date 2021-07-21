@@ -28,7 +28,7 @@ export default {
   background: #75a9c9;
 
   &_text {
-    height: 7vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
