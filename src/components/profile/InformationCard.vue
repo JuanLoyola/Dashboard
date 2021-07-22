@@ -1,5 +1,5 @@
 <template>
-  <div class="informationCard bg-white -mt-20 mr-8 shadow-lg">
+  <div class="informationCard bg-white -mt-20 shadow-lg">
 
     <div class="
       container-card

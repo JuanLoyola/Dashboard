@@ -1,5 +1,5 @@
 <template>
-  <div class="UserCard bg-white -mt-20 ml-8 shadow-lg">
+  <div class="UserCard bg-white -mt-20 shadow-lg">
     <div class="row flex w-full h-full flex-row mr-2 justify-items-center items-center">
       <div class="imgBox w-1/2 flex justify-center">
         <img class="image w-2/3 h-full rounded-full bg-white shadow-lg border-transparent cursor-pointer" src="@/assets/profile.png" alt="Profile picture">
