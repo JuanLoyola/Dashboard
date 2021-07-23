@@ -1,5 +1,5 @@
 <template>
-  <div class="profileViews py-3 h-1/3 flex flex-col-reverse justify-evenly items-center lg:flex-row lg:w-full">
+  <div class="profileViews py-3 h-1/3 flex flex-col-reverse justify-between items-center lg:flex-row w-screen lg:w-3/4">
     <MonthlyChart class="cursor-pointer bg-white mt-5 shadow-lg rounded-lg w-screen lg:w-auto"/>
     <div class="information bg-white shadow-lg w-3/4 lg:w-2/4 h-4/6 py-10 flex flex-col justify-center items-center">
       <h1 class="font-semibold">Who has viewed your profile</h1>
