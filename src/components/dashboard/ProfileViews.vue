@@ -1,7 +1,7 @@
 <template>
   <div class="profileViews py-3 h-1/3 flex flex-col-reverse justify-between items-center lg:flex-row w-screen lg:w-3/4">
     <MonthlyChart class="cursor-pointer bg-white mt-5 shadow-lg rounded-lg w-screen lg:w-auto"/>
-    <div class="information bg-white shadow-lg w-3/4 lg:w-2/4 h-4/6 py-10 flex flex-col justify-center items-center">
+    <div class="information bg-white shadow-lg lg:w-1/3 h-4/6 py-10 flex flex-col justify-center items-center">
       <h1 class="font-semibold">Who has viewed your profile</h1>
       <p class="font-light text-gray-500">Profile views in the last 90 days</p>
       <div class="information-items w-3/4 mt-5 flex flex-row justify-around">
