@@ -11,7 +11,7 @@
       >
       <i :class="item.icon"></i>
       <p class="quantity font-bold text-blue-600 hover:text-blue-400 cursor-pointer">{{ item.quantity }}</p>
-      <p class="tag font-medium">{{ item.tag }}</p>
+      <p class="tag font-medium text-xs xl:text-sm">{{ item.tag }}</p>
     </div>
 
   </div>
