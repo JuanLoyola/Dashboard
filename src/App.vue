@@ -11,6 +11,7 @@
 import './assets/tailwind.css'
 import '@headlessui/vue'
 import Navbar from '@/components/Navbar.vue'
+
 export default {
   components: {
     Navbar
