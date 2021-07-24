@@ -1,5 +1,5 @@
 # Dashboard test
-This repository is a practice as a way to try out new things
+This repository is for testing new things
 
 # Tools 
 ```
