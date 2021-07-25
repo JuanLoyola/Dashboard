@@ -12,7 +12,7 @@ This repository is for testing new things
 ```
 
 ## Live 
-No live version.
+<a href="https://dashboard-chart.netlify.app" target="_blank">Here</a>
 
 # Desktop preview:
 
