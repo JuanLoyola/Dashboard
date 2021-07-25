@@ -1,8 +1,22 @@
-# mailup
-## work in progress
+# Dashboard test
+This repository is for testing new things
 
+# Tools 
+```
+* HTML5
+* CSS3 [TailwindCSS]
+* Javascript
+* Vue.js [Routes / Vuex]
+* Vuelidate
+* Vue3-chart-v2
+```
 
+## Live 
+<a href="https://dashboard-chart.netlify.app" target="_blank">Here</a>
 
+# Desktop preview:
+
+<img src="https://i.imgur.com/N6Zps9d.png" alt="desktop preview">
 
 ## Project setup
 ```
@@ -11,20 +25,5 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# Dashboard
-
