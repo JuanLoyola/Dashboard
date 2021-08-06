@@ -11,6 +11,8 @@ export default defineComponent({
       datasets: [
         {
           label: 'Comparation Chart',
+          borderColor: 'rgba(255, 255, 255, 0.9)',
+          color: '#666',
           backgroundColor: [
             'rgba(255, 99, 132, 0.5)',
             'rgba(255, 159, 64, 0.5)',

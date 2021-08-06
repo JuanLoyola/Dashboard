@@ -1,24 +1,24 @@
 <script>
 import { defineComponent } from 'vue'
-import { Doughnut } from 'vue3-chart-v2'
+import { PolarArea } from 'vue3-chart-v2'
 
 export default defineComponent({
-  name: 'MonthlyChart',
-  extends: Doughnut,
+  name: 'PolarChart',
+  extends: PolarArea,
   mounted () {
     this.renderChart({
-      labels: ['IT Recruiters', 'Developers', 'Others'],
+      labels: ['Orientation stage', 'Comparison stage', 'Decision stage'],
       datasets: [
         {
-          label: 'Profile views',
+          label: 'Comparation Chart',
           borderColor: 'rgba(0, 0, 0, 0.5)',
-          color: '#fff',
+          color: '#333',
           backgroundColor: [
+            '#16cdc5',
             '#ff6f88',
-            '#44acfd',
-            '#16cdc5'
+            '#44acfd'
           ],
-          data: [60, 30, 10]
+          data: [11, 16, 15]
         }
       ]
     })

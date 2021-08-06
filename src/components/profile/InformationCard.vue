@@ -1,5 +1,5 @@
 <template>
-  <div class="informationCard bg-white -mt-20 shadow-lg">
+  <div class="informationCard -mt-20 shadow-lg" style="background:#2a2d3c">
 
     <div class="
       container-card
@@ -10,8 +10,8 @@
       v-for="(item, index) in items.info[0].variant" :key="index"
       >
       <i :class="item.icon"></i>
-      <p class="quantity font-bold text-blue-600 hover:text-blue-400 cursor-pointer">{{ item.quantity }}</p>
-      <p class="tag font-medium text-xs xl:text-sm">{{ item.tag }}</p>
+      <p class="quantity font-bold text-blue-400 hover:text-blue-300 cursor-pointer">{{ item.quantity }}</p>
+      <p class="tag font-medium text-gray-400 text-xs xl:text-sm">{{ item.tag }}</p>
     </div>
 
   </div>

@@ -1,23 +1,24 @@
 <template>
-  <div class="post bg-white mt-20 shadow-lg">
+  <div class="post mt-20 shadow-lg" style="background:#2a2d3c">
 
       <div class="flex w-full justify-center items-center">
-        <div class="w-full bg-white p-2 pt-4 rounded">
+        <div class="w-full p-2 pt-4 rounded" style="background:#2a2d3c">
           <div class="mt-3 p-3 w-full">
             <textarea rows="3" class="border p-2 rounded w-full" placeholder="Type something..." v-model="newNameTitle"
-          @keyup.enter="addPost" name="name"></textarea>
+          @keyup.enter="addPost" name="name" style="background:#354057"></textarea>
           </div>
           <div class="flex justify-between mx-3">
-            <div><button class="px-4 py-1 bg-blue-500 text-white rounded font-light hover:bg-blue-600" @click="addPost">Submit</button></div>
+            <div><button class="px-4 py-1 bg-blue-400 text-white rounded font-light hover:bg-blue-500" @click="addPost">Submit</button></div>
             <div><a href="#">...</a></div>
           </div>
         </div>
     </div>
 
     <div 
-          class="flex flex-row px-5 py-2 w-full"
+          class="flex flex-row px-5 py-2 w-full text-gray-400"
           v-for="name in names"
-          :key="name.id">
+          :key="name.id"
+          >
           <div class="itemList flex w-full justify-between">
             <div class="names">
                 {{ name.title }}

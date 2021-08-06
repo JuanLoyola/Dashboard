@@ -1,19 +1,19 @@
 <template>
-  <div class="UserCard bg-white -mt-20 shadow-lg">
+  <div class="UserCard -mt-20 shadow-lg" style="background:#2a2d3c">
     <div class="row flex w-full h-full flex-row mr-2 justify-items-center items-center">
       <div class="imgBox w-1/2 flex justify-center">
         <img class="image w-2/3 h-full rounded-full bg-white shadow-lg border-transparent cursor-pointer" src="@/assets/profile.png" alt="Profile picture">
       </div>
 
       <div class="infoBox flex flex-col justify-items-start items-start">
-        <p class="fullName font-semibold">{{name}} {{lastname}}</p>
-        <p class="role">{{role}}</p>
+        <p class="fullName font-semibold text-gray-300">{{name}} {{lastname}}</p>
+        <p class="role text-gray-400">{{role}}</p>
         <p class="adress mt-3 text-gray-500">{{adress}}</p>
         <p class="adressTwo mb-5 text-gray-500">{{adressTwo}}</p>
 
         <div class="interactions">
           <a href="#" class="follow bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mr-3">Follow</a>
-          <a href="#" class="message bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full">Message</a>
+          <a href="#" class="message bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-full">Message</a>
         </div>
       </div>
     </div>

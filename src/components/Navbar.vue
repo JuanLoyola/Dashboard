@@ -58,7 +58,7 @@ export default {
   position:sticky;
   top:0;
   z-index:3;
-  background: #1f2937;
+  background: #2b2e3c;
 
   .menu{
     margin-right: 30px;
@@ -101,7 +101,7 @@ export default {
     #nav{
       height: 88px;
       padding: 0 40px 0 50px;
-      background: #1f2937;
+      background: #2b2e3c;
     }
   }
   @media (max-width: 920px) {

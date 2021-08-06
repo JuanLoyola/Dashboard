@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200 h-full">
+  <div class="h-full" style="background:#354057">
     <ProfileBanner/>
     <div class="row">
     <UserCard/>

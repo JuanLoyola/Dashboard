@@ -1,10 +1,10 @@
 <script>
 import { defineComponent } from 'vue'
-import { Radar } from 'vue3-chart-v2'
+import { Line } from 'vue3-chart-v2'
 
 export default defineComponent({
   name: 'ProfilesChart',
-  extends: Radar,
+  extends: Line,
   mounted () {
     this.renderChart({
       labels: [
@@ -16,9 +16,9 @@ export default defineComponent({
       ],
       datasets: [
         {
-          label: 'My First Dataset',
-          data: [65, 59, 90, 81, 56],
-          fill: true,
+          label: 'One',
+          data: [11, 13, 19, 20, 25],
+          fill: false,
           backgroundColor: 'rgba(255, 99, 132, 0.2)',
           borderColor: 'rgb(255, 99, 132)',
           pointBackgroundColor: 'rgb(255, 99, 132)',
@@ -27,12 +27,34 @@ export default defineComponent({
           pointHoverBorderColor: 'rgb(255, 99, 132)'
         },
         {
-          label: 'My Second Dataset',
-          data: [30, 48, 70, 19, 96],
-          fill: true,
+          label: 'Two',
+          data: [11, 15, 17, 25, 24],
+          fill: false,
           backgroundColor: 'rgba(54, 162, 235, 0.2)',
           borderColor: 'rgb(54, 162, 235)',
           pointBackgroundColor: 'rgb(54, 162, 235)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(54, 162, 235)'
+        },
+        {
+          label: 'Three',
+          data: [11, 22, 21, 23, 20],
+          fill: false,
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'cyan',
+          pointBackgroundColor: 'cyan',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgb(255, 99, 132)'
+        },
+        {
+          label: 'Four',
+          data: [11, 20, 18, 22, 26],
+          fill: false,
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'orange',
+          pointBackgroundColor: 'orange',
           pointBorderColor: '#fff',
           pointHoverBackgroundColor: '#fff',
           pointHoverBorderColor: 'rgb(54, 162, 235)'

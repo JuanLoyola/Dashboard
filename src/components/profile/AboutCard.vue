@@ -1,16 +1,16 @@
 <template>
-  <div class="aboutCard bg-white mt-10 mb-10 shadow-l h-96 w-80">
+  <div class="aboutCard mt-10 mb-10 shadow-l h-96 w-80" style="background:#2a2d3c">
     <div class="content flex flex-col justify-center items-center">
       <div class="row pt-5">
-        <a href="#" class="About bg-transparent text-gray-500 font-normal py-2 px-4 border border-blue-500 rounded-full">About</a>
-        <a href="#" class="ml-5 text-gray-500">Friends</a>
+        <a href="#" class="About bg-transparent text-gray-400 font-normal py-2 px-4 border border-blue-500 rounded-full">About</a>
+        <a href="#" class="ml-5 text-gray-400">Friends</a>
       </div>
       <br>
       <div class="flex-col w-60 flex justify-start items-start"
       v-for="(item, index) in item.info[0].variant" :key="index">
         <p class="item text-gray-400 text-sm">{{ item.item }}</p>
-        <p class="text">{{ item.text }}</p>
-        <hr class="separator w-full border-dashed mt-5 mb-5">
+        <p class="text text-gray-300">{{ item.text }}</p>
+        <hr class="separator w-full border-b-dashed mt-5 mb-5">
       </div>
     </div>
   </div>
@@ -55,4 +55,9 @@ export default {
 .aboutCard {
   border-radius: 9px;
 }
+
+.separator {
+  border-color: #354057;
+}
+
 </style>
