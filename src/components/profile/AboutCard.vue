@@ -60,4 +60,11 @@ export default {
   border-color: #354057;
 }
 
+@media screen and (max-width: 800px) {
+  .aboutCard {
+    width: 20em;
+    margin: 40px 10px 0 10px;
+    font-size: 0.9rem;
+  }
+}
 </style>

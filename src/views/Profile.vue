@@ -1,7 +1,7 @@
 <template>
-  <div class="h-full" style="background:#354057">
+  <div class="h-full sm:h-screen pb-10" style="background:#354057">
     <ProfileBanner/>
-    <div class="row">
+    <div class="row -mt-10">
     <UserCard/>
     <InformationCard/>
     </div>
@@ -42,7 +42,7 @@ export default {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .section-two {
@@ -58,9 +58,11 @@ export default {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .row {
     flex-flow: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 </style>

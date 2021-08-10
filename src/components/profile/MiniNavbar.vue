@@ -31,7 +31,7 @@ export default {
 
 @media screen and (max-width: 800px) {
   .miniNav {
-    width: 23.5em;
+    width: 20em;
     margin: 40px 10px 0 10px;
     font-size: 0.9rem;
   }

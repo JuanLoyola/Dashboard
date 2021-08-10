@@ -1,5 +1,5 @@
 <template>
-  <div class="informationCard -mt-20 shadow-lg" style="background:#2a2d3c">
+  <div class="informationCard shadow-lg" style="background:#2a2d3c">
 
     <div class="
       container-card
@@ -88,10 +88,10 @@ export default {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .informationCard {
-    width: 23.5em;
-    margin: 30px 10px 0 10px;
+    width: 20em;
+    margin: 0px 10px 0 10px;
     font-size: 0.9rem;
   }
 }

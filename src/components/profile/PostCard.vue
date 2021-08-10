@@ -1,9 +1,9 @@
 <template>
-  <div class="post mt-20 shadow-lg" style="background:#2a2d3c">
+  <div class="post mt-20 shadow-lg text-gray-400" style="background:#2a2d3c">
 
       <div class="flex w-full justify-center items-center">
-        <div class="w-full p-2 pt-4 rounded" style="background:#2a2d3c">
-          <div class="mt-3 p-3 w-full">
+        <div class="w-full pt-4 rounded" style="background:#2a2d3c">
+          <div class="mt-3 p-2 w-full">
             <textarea rows="3" class="border p-2 rounded w-full" placeholder="Type something..." v-model="newNameTitle"
           @keyup.enter="addPost" name="name" style="background:#354057"></textarea>
           </div>
@@ -20,7 +20,7 @@
           :key="name.id"
           >
           <div class="itemList flex w-full justify-between">
-            <div class="names">
+            <div class="names text-gray-400">
                 {{ name.title }}
             </div>
             <div
@@ -78,9 +78,9 @@ export default {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .post {
-    width: 23.5em;
+    width: 20em;
     margin: 40px 10px 0 10px;
     font-size: 0.9rem;
   }
