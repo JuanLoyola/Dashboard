@@ -16,7 +16,7 @@ This repository is for testing new things
 
 # Desktop preview:
 
-<img src="https://i.imgur.com/N6Zps9d.png" alt="desktop preview">
+<img src="https://i.imgur.com/Qh46DCG.png" alt="desktop preview">
 
 ## Project setup
 ```
