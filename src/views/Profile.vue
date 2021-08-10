@@ -1,7 +1,7 @@
 <template>
-  <div class="h-full sm:h-screen pb-10" style="background:#354057">
+  <div class="h-full lg:h-screen 2xl:h-full" style="background:#354057">
     <ProfileBanner/>
-    <div class="row -mt-10">
+    <div class="row ">
     <UserCard/>
     <InformationCard/>
     </div>
@@ -60,8 +60,9 @@ export default {
 
 @media screen and (max-width: 767px) {
   .row {
+    height: 720px;
     flex-flow: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
 }

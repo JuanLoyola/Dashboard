@@ -24,7 +24,7 @@
                 {{ name.title }}
             </div>
             <div
-              class="trash material-icons"
+              class="trash cursor-pointer"
               @click="deletePost(name.id)"
               >
               <i class="fas fa-trash-alt"></i>
